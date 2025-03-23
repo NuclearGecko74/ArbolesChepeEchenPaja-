@@ -9,10 +9,11 @@ namespace ArbolesChepeEchenPaja______
 {
     class Nodo
     {
-        private int? data;
-        private Nodo left;
-        private Nodo right;
+        private int? data; // Dato que guarda el nodo
+        private Nodo left; // Nodo siguiente a la izquierda
+        private Nodo right; // Nodo siguiente a la derecha
 
+        // Constructores de la clase Nodo
         public Nodo(int data, Nodo left, Nodo right)
         {
             this.data = data;
@@ -34,6 +35,7 @@ namespace ArbolesChepeEchenPaja______
             right = null;
         }
 
+        // Getters y setters de la clase Nodo
         public int? Data
         {
             get { return data; }

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArbolBinario.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Nodo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

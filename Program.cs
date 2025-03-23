@@ -10,6 +10,9 @@ namespace ArbolesChepeEchenPaja______
     {
         static void Main(string[] args)
         {
+            Menu menu = new Menu();
+
+            menu.Show(); // Muestra el menu
         }
     }
 }
